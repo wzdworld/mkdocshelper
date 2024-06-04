@@ -12,7 +12,7 @@
         <meta name="author" content="wzdworld">
       
       
-        <link rel="canonical" href="https://wzdworld.github.io/mkdocshelper/%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/Github%E9%83%A8%E7%BD%B2%E7%9A%84%E5%89%8D%E6%8F%90%E6%9D%A1%E4%BB%B6/">
+        <link rel="canonical" href="https://github.com.github.io/wzdworld/%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/Github%E9%83%A8%E7%BD%B2%E7%9A%84%E5%89%8D%E6%8F%90%E6%9D%A1%E4%BB%B6/">
       
       
         <link rel="prev" href="../..">
@@ -432,6 +432,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#检查Git是否安装成功" class="md-nav__link">
+    <span class="md-ellipsis">
+      检查Git是否安装成功
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#配置全局用户和邮箱" class="md-nav__link">
+    <span class="md-ellipsis">
+      配置全局用户和邮箱
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -443,6 +461,48 @@
       配置SSH公钥到GitHub
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="配置SSH公钥到GitHub">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#生成新的SSH密钥" class="md-nav__link">
+    <span class="md-ellipsis">
+      生成新的SSH密钥
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#Github账户添加新的SSH密钥" class="md-nav__link">
+    <span class="md-ellipsis">
+      Github账户添加新的SSH密钥
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#测试SSH连接" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试SSH连接
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#官方文档" class="md-nav__link">
+    <span class="md-ellipsis">
+      官方文档
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -567,6 +627,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#检查Git是否安装成功" class="md-nav__link">
+    <span class="md-ellipsis">
+      检查Git是否安装成功
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#配置全局用户和邮箱" class="md-nav__link">
+    <span class="md-ellipsis">
+      配置全局用户和邮箱
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -578,6 +656,48 @@
       配置SSH公钥到GitHub
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="配置SSH公钥到GitHub">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#生成新的SSH密钥" class="md-nav__link">
+    <span class="md-ellipsis">
+      生成新的SSH密钥
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#Github账户添加新的SSH密钥" class="md-nav__link">
+    <span class="md-ellipsis">
+      Github账户添加新的SSH密钥
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#测试SSH连接" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试SSH连接
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#官方文档" class="md-nav__link">
+    <span class="md-ellipsis">
+      官方文档
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -607,14 +727,41 @@
 <blockquote>
 <p>Git可以从官网和镜像源下载，但是官网下载太慢，下面给出镜像源下载方案。</p>
 </blockquote>
-<p>下载地址：https://mirrors.huaweicloud.com/git-for-windows/v2.45.0.windows.1/Git-2.45.0-64-bit.exe</p>
+<p><a href="https://mirrors.huaweicloud.com/git-for-windows/v2.45.0.windows.1/Git-2.45.0-64-bit.exe">点击下载Git(通过华为云镜像)</a></p>
 <h3 id="安装Git">安装Git<a class="headerlink" href="#安装Git" title="Permanent link">&para;</a></h3>
-<p>下载后打开Git安装包</p>
+<ol>
+<li>下载后打开Git安装包</li>
+<li>除了选择安装目录，其他的点击下一步即可(当然你也可以详细配置)</li>
+</ol>
+<h3 id="检查Git是否安装成功">检查Git是否安装成功<a class="headerlink" href="#检查Git是否安装成功" title="Permanent link">&para;</a></h3>
+<p>打开命令行，输入<code>git --version</code>，出现提示信息说明安装成功。</p>
+<p><img alt="image-20240604084941355" src="../assets/image-20240604084941355.png" /></p>
+<h3 id="配置全局用户和邮箱">配置全局用户和邮箱<a class="headerlink" href="#配置全局用户和邮箱" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p>下面对安装流程作详细的说明，我们约定下面的格式如下：</p>
-<p>一个标题，一个图片，一个默认选项，一个页面解释和</p>
+<p>TODO</p>
 </blockquote>
 <h2 id="配置SSH公钥到GitHub">配置SSH公钥到GitHub<a class="headerlink" href="#配置SSH公钥到GitHub" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>这里我们假设你之前没有配置过SSH，如果你之前配置过SSH(使用Github或者Gitee托管项目进行开发时)，我们相信这一步你已经完成了。</p>
+</blockquote>
+<h3 id="生成新的SSH密钥">生成新的SSH密钥<a class="headerlink" href="#生成新的SSH密钥" title="Permanent link">&para;</a></h3>
+<p>在命令行输入<code>ssh-keygen -t ed25519 -C "your_email@example.com"</code>，邮箱换成自己的邮箱，然后敲击回车键三次。</p>
+<p><img alt="image-20240604103750139" src="../assets/image-20240604103750139.png" />  </p>
+<h3 id="Github账户添加新的SSH密钥">Github账户添加新的SSH密钥<a class="headerlink" href="#Github账户添加新的SSH密钥" title="Permanent link">&para;</a></h3>
+<ol>
+<li>按照上图中矩形框所提示的公钥位置，找到公钥文件，复制公钥文件的内容</li>
+<li>点击右上角头像，向下找到Settings，点击进入设置中心</li>
+<li>点击左侧栏的SSH and GPG keys，点击New SSH key按钮，输入一个提示性的标题，把复制的公钥内容粘贴到Key中</li>
+<li>点击Add SSH key即可</li>
+<li>如果提示输入密码，输入密码即可</li>
+</ol>
+<p><img alt="image-20240604110129991" src="../assets/image-20240604110129991.png" /></p>
+<h3 id="测试SSH连接">测试SSH连接<a class="headerlink" href="#测试SSH连接" title="Permanent link">&para;</a></h3>
+<p>输入<code>ssh -T git@github.com</code>，出现如下提示说明SSH配置成功</p>
+<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a>Hi {username}! You&#39;ve successfully authenticated, but GitHub does not provide shell access.
+</span></code></pre></div></td></tr></table></div>
+<h3 id="官方文档">官方文档<a class="headerlink" href="#官方文档" title="Permanent link">&para;</a></h3>
+<p><a href="https://docs.github.com/zh/authentication/connecting-to-github-with-ssh">通过 SSH 连接到 GitHub - GitHub 文档</a></p>
 
 
 
