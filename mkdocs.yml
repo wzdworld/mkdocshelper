@@ -22,7 +22,7 @@ markdown_extensions:
  -
   pymdownx.highlight:
     linenums: true
-    anchor_linenums: true
+    anchor_linenums: false
     auto_title: true
     line_spans: __span
     pygments_lang_class: true
@@ -55,7 +55,7 @@ theme:
       icon: material/weather-sunny
       name: 切换至日间模式
   features:
-   - content.code.copy
    - navigation.top
+   - announce.dismiss
    - navigation.expand
    - navigation.tabs
