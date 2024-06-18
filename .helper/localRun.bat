@@ -1,3 +1,3 @@
-cd /d E:\Data\mkdocshelper
+cd /d E:\MkDocs\MkDocsHelper
 call venv/Scripts/activate
 mkdocs serve
