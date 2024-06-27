@@ -55,6 +55,7 @@ theme:
       icon: material/weather-sunny
       name: 切换至日间模式
   features:
+   - content.code.copy
    - navigation.top
    - announce.dismiss
    - navigation.expand
