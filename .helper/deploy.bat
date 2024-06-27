@@ -1,4 +1,4 @@
-cd /d E:\Data\mkdocshelper
+cd /d E:\MkDocs\MkDocsHelper
 call venv/Scripts/activate
 git config user.name wzdworld
 git config user.email 171532452+wzdworld@users.noreply.github.com

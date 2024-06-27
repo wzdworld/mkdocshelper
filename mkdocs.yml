@@ -35,7 +35,7 @@ extra_javascript:
 extra_css:
  - https://unpkg.com/katex@0/dist/katex.min.css
 theme:
-  favicon: assets/images/favicon.png
+  favicon: assets/images/Snipaste_2023-12-21_17-39-53.jpg
   custom_dir: overrides
   logo: assets/logo.png
   name: material
